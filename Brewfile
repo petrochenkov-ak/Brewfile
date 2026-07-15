@@ -3,6 +3,8 @@
 # 'brew tap'
 tap "homebrew/cask"
 
+brew "aider" # brew install aider
+
 brew "ansible" # brew install ansible
 brew "awscli" # brew install awscli
 brew "autoenv" # brew install autoenv
@@ -38,13 +40,14 @@ brew "libxml2" # brew install libxml2
 brew "lighttpd" # brew install lighttpd
 
 brew "memcached" # brew install memcached
+brew "tw93/tap/mole" # brew install tw93/tap/mole
+brew "mypy" # brew install mypy
 
 brew "nginx" # brew install nginx
 brew "node" # brew install node
 
 brew "objc-run" # brew install objc-run
 brew "optipng" # brew install optipng
-brew "openshift-cli" # brew install openshift-cli
 brew "ossp-uuid" # brew install ossp-uuid
 
 brew "pandoc" # brew install pandoc
@@ -53,6 +56,7 @@ brew "pipenv" # brew install pipenv
 brew "postgresql" # brew install postgresql
 brew "pstree" # brew install pstree
 brew "pyenv" # brew install pyenv
+brew "pylint" # brew install pylint
 brew "pypy" # brew install pypy
 brew "pypy3" # brew install pypy3
 brew "python" # brew install python
@@ -63,7 +67,6 @@ brew "ruby-build" # brew install ruby-build
 
 brew "smartmontools" # brew install smartmontools
 brew "spawn-fcgi" # brew install spawn-fcgi
-brew "sonarqube" # brew install sonarqube
 brew "sqlite" # brew install sqlite
 brew "supervisor" # brew install supervisor
 
@@ -87,10 +90,17 @@ cask "android-file-transfer", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/my-apps/Applications apptivate
 cask "apptivate", args: { appdir: "~/Applications" }
 
+# https://github.com/Ji4n1ng/OpenInTerminal
+# brew install --cask openinterminal
+cask "openinterminal", args: { appdir: "~/Applications" }
+
 # brew install --cask --appdir=~/Applications cd-to
 cask "cd-to", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications chromium
 cask "chromium", args: { appdir: "~/Applications" }
+
+# brew install --cask --appdir=~/Applications cursor --debug
+cask "cursor", args: { appdir: "~/Applications" }
 
 # brew install --cask --appdir=~/Applications discord
 cask "discord", args: { appdir: "~/Applications" }
@@ -100,9 +110,9 @@ cask "docker", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications elmedia-player
 cask "elmedia-player", args: { appdir: "~/Applications" }
 
+# brew install --cask --appdir=~/Applications iglance
+cask "iglance", args: { appdir: "~/Applications" }
 
-# brew install --cask --appdir=~/Applications geektool
-cask "geektool", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications google-chrome
 cask "google-chrome", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications google-backup-and-sync
@@ -114,8 +124,6 @@ cask "growlnotify", args: { appdir: "~/Applications" }
 cask "filezilla", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications firefox
 cask "firefox", args: { appdir: "~/Applications" }
-# brew install --cask --appdir=~/Applications flash-player
-cask "flash-player", args: { appdir: "~/Applications" }
 
 # brew install --cask --appdir=~/Applications iterm2
 cask "iterm2", args: { appdir: "~/Applications" }
@@ -144,6 +152,8 @@ cask "steam", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications sublime-text
 cask "sublime-text", args: { appdir: "~/Applications" }
 
+# brew install --cask --appdir=~/Applications tor-browser
+cask "tor-browser", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications transmission
 cask "transmission", args: { appdir: "~/Applications" }
 
