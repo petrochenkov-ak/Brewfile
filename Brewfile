@@ -26,6 +26,7 @@ brew "duti" # brew install duti
 
 brew "findutils" # brew install findutils
 
+brew "gh" # brew install gh
 brew "gdbm" # brew install gdbm
 brew "gettext" # brew install gettext
 brew "git" # brew install git
@@ -53,6 +54,7 @@ brew "ossp-uuid" # brew install ossp-uuid
 brew "pandoc" # brew install pandoc
 brew "pidof" # brew install pidof
 brew "pipenv" # brew install pipenv
+brew "pipx" # brew install pipx
 brew "postgresql" # brew install postgresql
 brew "pstree" # brew install pstree
 brew "pyenv" # brew install pyenv
@@ -157,6 +159,8 @@ cask "tor-browser", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications transmission
 cask "transmission", args: { appdir: "~/Applications" }
 
+# brew install --cask --appdir=~/Applications visual-studio-code
+cask "visual-studio-code", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications vlc
 cask "vlc", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications vox
