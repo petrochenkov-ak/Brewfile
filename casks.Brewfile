@@ -42,7 +42,7 @@ cask "growlnotify", args: { appdir: "~/Applications" }
 
 # brew install --cask --appdir=~/Applications filezilla
 cask "filezilla", args: { appdir: "~/Applications" }
-# brew install --cask --appdir=~/Applications firefox
+# brew install --cask --force --appdir=~/Applications firefox
 cask "firefox", args: { appdir: "~/Applications" }
 
 # brew install --cask --appdir=~/Applications iterm2
