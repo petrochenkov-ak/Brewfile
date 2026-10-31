@@ -45,6 +45,7 @@ brew "gnupg" # brew install gnupg
 brew "htop" # brew install htop
 
 brew "libxml2" # brew install libxml2
+brew "mihomo" # brew install mihomo
 brew "lighttpd" # brew install lighttpd
 brew "llm" # brew install llm
 
@@ -78,6 +79,7 @@ brew "rbenv" # brew install rbenv
 brew "retry" # brew install retry
 brew "ruby-build" # brew install ruby-build
 
+brew "sing-box" # brew install sing-box
 brew "sketchybar" # brew tap FelixKratz/formulae && brew trust felixkratz/formulae && brew install sketchybar
 brew "smartmontools" # brew install smartmontools
 brew "spawn-fcgi" # brew install spawn-fcgi
