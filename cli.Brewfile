@@ -2,18 +2,24 @@
 
 # 'brew tap'
 tap "homebrew/cask"
+tap "FelixKratz/formulae" # brew tap FelixKratz/formulae && brew trust felixkratz/formulae && brew install sketchybar
 
+brew "aichat" # brew install aichat
 brew "aider" # brew install aider
 
 brew "ansible" # brew install ansible
 brew "awscli" # brew install awscli
 brew "autoenv" # brew install autoenv
+brew "autossh" # brew install autossh
 
 brew "bash" # brew install bash
 brew "bash-completion" # brew install bash-completion
+brew "block-goose-cli" # brew install block-goose-cli
+brew "brew-gem" # brew install brew-gem
 
 brew "cask" # brew install cask
 brew "cookiecutter" # brew install cookiecutter
+brew "crane" # brew install crane
 
 brew "detox" # brew install detox
 brew "direnv" # brew install direnv
@@ -24,6 +30,7 @@ brew "docker-compose-completion" # brew install docker-compose-completion
 brew "docker-machine-completion" # brew install docker-machine-completion
 brew "duti" # brew install duti
 
+brew "fabric-ai" # brew install fabric-ai
 brew "findutils" # brew install findutils
 
 brew "gh" # brew install gh
@@ -38,7 +45,9 @@ brew "gnupg" # brew install gnupg
 brew "htop" # brew install htop
 
 brew "libxml2" # brew install libxml2
+brew "mihomo" # brew install mihomo
 brew "lighttpd" # brew install lighttpd
+brew "llm" # brew install llm
 
 brew "memcached" # brew install memcached
 brew "tw93/tap/mole" # brew install tw93/tap/mole
@@ -51,6 +60,7 @@ brew "objc-run" # brew install objc-run
 brew "optipng" # brew install optipng
 brew "ossp-uuid" # brew install ossp-uuid
 
+brew "pacparser" # brew install pacparser
 brew "pandoc" # brew install pandoc
 brew "pidof" # brew install pidof
 brew "pipenv" # brew install pipenv
@@ -66,12 +76,16 @@ brew "python" # brew install python
 
 brew "rabbitmq" # brew install rabbitmq
 brew "rbenv" # brew install rbenv
+brew "retry" # brew install retry
 brew "ruby-build" # brew install ruby-build
 
+brew "sing-box" # brew install sing-box
+brew "sketchybar" # brew tap FelixKratz/formulae && brew trust felixkratz/formulae && brew install sketchybar
 brew "smartmontools" # brew install smartmontools
 brew "spawn-fcgi" # brew install spawn-fcgi
 brew "sqlite" # brew install sqlite
 brew "supervisor" # brew install supervisor
+brew "swiftbar" # brew install swiftbar
 
 brew "tag" # brew install tag
 brew "terminal-notifier" # brew install terminal-notifier

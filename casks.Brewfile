@@ -7,8 +7,11 @@ tap "homebrew/cask"
 cask "alfred", args: { appdir: "~/Applications" }
 # brew install --cask --appdir=~/Applications android-file-transfer
 cask "android-file-transfer", args: { appdir: "~/Applications" }
-# brew install --cask --appdir=~/my-apps/Applications apptivate
+# brew install --cask --appdir=~/Applications apptivate
 cask "apptivate", args: { appdir: "~/Applications" }
+
+# brew install --cask --appdir=~/Applications clash-verge-rev
+cask "clash-verge-rev", args: { appdir: "~/Applications" }
 
 # https://github.com/Ji4n1ng/OpenInTerminal
 # brew install --cask openinterminal
@@ -42,7 +45,7 @@ cask "growlnotify", args: { appdir: "~/Applications" }
 
 # brew install --cask --appdir=~/Applications filezilla
 cask "filezilla", args: { appdir: "~/Applications" }
-# brew install --cask --appdir=~/Applications firefox
+# brew install --cask --force --appdir=~/Applications firefox
 cask "firefox", args: { appdir: "~/Applications" }
 
 # brew install --cask --appdir=~/Applications iterm2
