@@ -3,6 +3,7 @@
 # 'brew tap'
 tap "homebrew/cask"
 tap "FelixKratz/formulae" # brew tap FelixKratz/formulae && brew trust felixkratz/formulae && brew install sketchybar
+tap "project-zot/tap" # brew tap project-zot/tap && brew install zot
 
 brew "aichat" # brew install aichat
 brew "aider" # brew install aider
@@ -27,6 +28,7 @@ brew "dnsmasq" # brew install dnsmasq
 brew "docker" # brew install docker
 brew "docker-completion" # brew install docker-completion
 brew "docker-compose-completion" # brew install docker-compose-completion
+brew "docker-credential-helper" # brew install docker-credential-helper
 brew "docker-machine-completion" # brew install docker-machine-completion
 brew "duti" # brew install duti
 
@@ -42,7 +44,9 @@ brew "gnu-sed" # brew install gnu-sed
 brew "gnu-tar" # brew install gnu-tar
 brew "gnupg" # brew install gnupg
 
+brew "hcledit" # brew install hcledit
 brew "htop" # brew install htop
+brew "httpd" # brew install httpd
 
 brew "libxml2" # brew install libxml2
 brew "mihomo" # brew install mihomo
@@ -51,6 +55,7 @@ brew "llm" # brew install llm
 
 brew "memcached" # brew install memcached
 brew "tw93/tap/mole" # brew install tw93/tap/mole
+brew "mussh" # brew install mussh
 brew "mypy" # brew install mypy
 
 brew "nginx" # brew install nginx
@@ -83,6 +88,7 @@ brew "sing-box" # brew install sing-box
 brew "sketchybar" # brew tap FelixKratz/formulae && brew trust felixkratz/formulae && brew install sketchybar
 brew "smartmontools" # brew install smartmontools
 brew "spawn-fcgi" # brew install spawn-fcgi
+brew "spawn-sponge" # brew install sponge
 brew "sqlite" # brew install sqlite
 brew "supervisor" # brew install supervisor
 brew "swiftbar" # brew install swiftbar
@@ -98,3 +104,6 @@ brew "wget" # brew install wget
 
 brew "uv" # brew install uv
 brew "yq" # brew install yq
+
+# brew tap project-zot/tap
+brew "zot" # brew install zot
